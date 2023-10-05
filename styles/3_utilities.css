@@ -1,0 +1,191 @@
+/* Layout */
+
+.container {
+  margin: 0 auto;
+}
+
+.bottom-cta {
+  background-color: var(--orange-primary-color);
+  color: var(--white-color);
+}
+
+.upper-footer {
+  background-color: var(--black-primary-color);
+  opacity: 0.98;
+}
+
+.lower-footer {
+  background-color: var(--black-primary-color);
+}
+
+/*  */
+
+/* Components */
+
+.btn {
+  border: 0;
+  border-radius: 12px;
+  padding: 16px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 125%; /* 22.5px */
+  color: var(--white-color);
+}
+
+.btn-primary {
+  background-color: var(--orange-primary-color);
+}
+
+.btn-secondary {
+  background-color: var(--black-primary-color);
+}
+
+.nav__line {
+  width: 1px;
+  height: 42px;
+  opacity: 0.36;
+  background: #939191;
+}
+
+.blog__line {
+  width: 0.1995rem;
+  height: 7rem;
+  background: var(--black-primary-color);
+  flex-shrink: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select,
+textarea {
+  background-color: #f2f2f2;
+  border-radius: 0.125rem;
+  border: none;
+  max-width: 39rem;
+  height: 4rem;
+  margin-bottom: 0.25rem;
+  padding-left: 2rem;
+}
+
+select {
+  color: grey;
+  padding-left: 1.75rem;
+}
+
+textarea {
+  padding-top: 1.5rem;
+  font-family: 'Manrope', sans-serif;
+}
+
+/* Typography */
+
+/* Heading (h1) */
+h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 5.25rem;
+  letter-spacing: -0.12rem;
+  color: var(--white-color);
+}
+
+h2 {
+  font-size: 58px;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+  letter-spacing: -0.09rem;
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1.2px;
+}
+
+h5,
+.article-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: -0.06rem;
+}
+
+.trending {
+  color: var(--orange-primary-color);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  letter-spacing: 3.84px;
+}
+
+.body-text-1 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.96875rem;
+}
+
+.body-text-2 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+.caption {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  opacity: 0.7;
+  color: var(--black-primary-color);
+}
+
+.title-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+  letter-spacing: -0.045rem;
+}
+
+.current-page {
+  text-decoration: underline var(--black-primary-color);
+}
+
+.black-text {
+  color: var(--black-primary-color);
+}
+
+.black-text-2 {
+  color: var(--black-secondary-color);
+}
+
+.white-text {
+  color: var(--white-color);
+}
+
+.grey-text {
+  color: var(--grey-color);
+}
+
+.opacity-8 {
+  opacity: 0.8;
+}
+
+.opacity-7 {
+  opacity: 0.7;
+}
+
+.opacity-6 {
+  opacity: 0.6;
+}
+
+.social-icon {
+  color: var(--white-color);
+  font-size: 1.5rem;
+}

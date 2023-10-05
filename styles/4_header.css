@@ -1,0 +1,193 @@
+/* Mobile first */
+
+.container {
+  width: 90%;
+}
+
+header {
+  width: 100%;
+  background-color: var(--white-color);
+}
+
+/* logo */
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* -- toggler */
+
+.toggler {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.toggler i {
+  font-size: 28px;
+  cursor: pointer;
+  color: var(--black-primary-color);
+  opacity: 0.8;
+}
+
+/* navigation */
+
+.nav-container {
+  display: flex;
+}
+
+nav {
+  height: 5.625em;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+
+.navigation__item a {
+  text-decoration: none;
+  color: var(--black-primary-color);
+}
+
+.nav__right {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.road__assistance {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__line {
+  margin: 0 1rem;
+}
+
+.nav.hidden {
+  display: none;
+}
+
+.road-assistance-text {
+  display: none;
+}
+
+.assistance-image {
+  display: flex;
+  padding-right: 0.88rem;
+}
+
+/* Header content */
+
+.header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__blog-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/formula.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 350px;
+}
+
+.header__blog-text {
+  padding: 4rem 2rem;
+  opacity: 0.99;
+  background: var(--black-primary-color);
+}
+
+.header__headline {
+  margin: 1rem 0;
+}
+
+.header__read-more {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.header__read-more.btn-primary,
+.header__read-more p {
+  font-size: 1rem;
+}
+
+/* set back to default on tablet */
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+  .header-container {
+    flex-direction: row;
+  }
+  .header__blog-image {
+    width: 40%;
+  }
+  .header__blog-text {
+    width: 60%;
+  }
+  .header__read-more.btn-primary,
+  .header__read-more p {
+    font-size: 1.125rem;
+  }
+  .toggler {
+    display: none;
+  }
+  .nav.hidden {
+    display: flex;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .road-assistance-text {
+    display: unset;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 75%;
+  }
+  .header__blog-text {
+    padding: 6rem 11rem 6rem 3rem;
+  }
+  .toggler {
+    display: none;
+  }
+  .nav.hidden {
+    display: flex;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  .nav__line {
+    margin: 0 2rem;
+  }
+  .road-assistance-text {
+    display: unset;
+  }
+}

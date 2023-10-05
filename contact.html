@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/3ed4550e0c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/1_resets.css" />
+    <link rel="stylesheet" href="./styles/2_variables.css" />
+    <link rel="stylesheet" href="./styles/3_utilities.css" />
+    <link rel="stylesheet" href="./styles/4_header.css" />
+    <link rel="stylesheet" href="./styles/5_home.css" />
+    <title>{finsweet - Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container nav-container">
+        <div class="logo">
+          <img src="./assets/images/logo.png" alt="Finsweet logo" />
+        </div>
+        <div class="nav__right">
+          <div class="toggler"><i class="fa-solid fa-bars"></i></div>
+          <div class="nav hidden">
+            <ul class="navigation">
+              <li class="navigation__item">
+                <a href="index.html" class="body-text-2">Home</a>
+              </li>
+              <li class="navigation__item">
+                <a href="about.html" class="body-text-2">About us</a>
+              </li>
+              <li class="navigation__item">
+                <a href="services.html" class="body-text-2">Services</a>
+              </li>
+              <li class="navigation__item">
+                <a href="blog.html" class="body-text-2">Blog</a>
+              </li>
+              <li class="navigation__item">
+                <a href="contact.html" class="body-text-2">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav__line"></div>
+          <div class="road__assistance">
+            <div class="road__assistance_icon">
+              <img src="./assets/images/assistance-icon.png" alt="" class="assistance-image" />
+            </div>
+            <div class="road-assistance-text">
+              <p class="caption">Road Assistance</p>
+              <p class="body-text-1 black-text assistance-number">1800 265 24 52</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container">
+        <h1 class="black-text contact-experts-headline">Get in touch with our experts</h1>
+        <div class="contact-section">
+          <div class="form-container">
+            <form action="#" method="post">
+              <label for="name"></label>
+              <input type="text" id="name" name="name" placeholder="Your full Name" required />
+              <label for="email"></label>
+              <input type="email" id="email" name="email" placeholder="Your Email" required />
+              <label for="options"></label>
+              <select id="options" name="options">
+                <option value="" disabled selected hidden>Select service type</option>
+                <option value="engine-check">Engine check</option>
+                <option value="option2">Oil change</option>
+                <option value="option3">PM service</option>
+              </select>
+              <label for="message"></label>
+              <textarea id="message" name="message" placeholder="Message" required></textarea>
+            </form>
+            <button type="submit" class="btn btn-primary contact-button">Send message</button>
+          </div>
+
+          <div class="experts-contact">
+            <p class="body-text-2 opacity-7 black-text">Address</p>
+            <p class="contact-title-text title-text black-text">NH 234 Public Square San Francisco 65368</p>
+            <p class="contact-margin body-text-2 opacity-7 black-text">Contact Details</p>
+            <p class="contact-title-text title-text black-text">1800 265 24 52</p>
+            <p class="contact-title-text title-text black-text">Finsweet@gmail.com</p>
+            <p class="contact-margin body-text-2 opacity-7 black-text">Opening Hours</p>
+            <p class="contact-title-text title-text black-text">Monday to Friday 9:00 AM to 10:00 AM</p>
+          </div>
+        </div>
+
+        <img src="./assets/images/contact-map.png" alt="Map of New York" class="contact-map" />
+      </section>
+    </main>
+    <footer>
+      <div class="contact-upper-footer">
+        <img src="./assets/images/contact-footer-img.png" alt="" class="contact-upper-footer-image" />
+      </div>
+      <div class="lower-footer">
+        <div class="container lower-footer-content">
+          <img src="./assets/images/logo-white.png" alt="" class="footer-logo-image" />
+          <ul class="bottom__navigation">
+            <li class="bottom__navigation_item">
+              <a href="index.html" class="body-text-2">Home</a>
+            </li>
+            <li class="bottom__navigation_item">
+              <a href="about.html" class="body-text-2">About us</a>
+            </li>
+            <li class="bottom__navigation_item">
+              <a href="services.html" class="body-text-2">Services</a>
+            </li>
+            <li class="bottom__navigation_item">
+              <a href="blog.html" class="body-text-2">Blog</a>
+            </li>
+            <li class="bottom__navigation_item">
+              <a href="contact.html" class="body-text-2">Contact</a>
+            </li>
+          </ul>
+          <p class="body-text-2 grey-text">@ Copyright Finsweet 2021</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

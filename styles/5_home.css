@@ -1,0 +1,461 @@
+.first-section {
+  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article__featured {
+  background-color: var(--white-color);
+  padding: 2rem;
+}
+
+.article__featured_image {
+  width: 100%;
+  display: block;
+}
+
+.article__featured_image,
+.article__featured_text {
+  padding-bottom: 2rem;
+}
+
+.article__featured_headline {
+  padding: 1rem 0rem;
+}
+
+.article__featured_more {
+  display: flex;
+  align-items: center;
+}
+
+.article__featured a {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.recent-articles {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+  gap: 2rem;
+}
+
+.article__recent_main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.article__recent_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.article__recent_text h5 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.article__recent_text .article-info {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.article-info {
+  margin-top: 0.25rem;
+}
+
+.article__recent_image {
+  object-fit: cover;
+  width: 6rem;
+  height: 6rem;
+}
+
+.second-section {
+  padding-top: 4rem;
+}
+
+.other__article_image {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  height: 16.625rem;
+  object-fit: cover;
+  object-position: center;
+}
+.other__article_title {
+  margin: 1rem 0;
+}
+
+.other__article {
+  padding-bottom: 4rem;
+}
+
+.headline-cta {
+  padding-bottom: 3rem;
+}
+
+.footer-left-headline {
+  padding-bottom: 2rem;
+}
+
+.social-icon {
+  padding-right: 1.48rem;
+}
+
+.footer-left {
+  padding-bottom: 6rem;
+}
+
+.upper-footer {
+  padding: 6rem 0;
+}
+
+.footer-left {
+  max-width: 28.9375rem;
+}
+
+.footer-title-text {
+  padding-bottom: 2rem;
+}
+
+.footer-title-text:last-child {
+  padding-bottom: 0;
+}
+
+.lower-footer {
+  display: flex;
+  text-align: left;
+  padding: 2rem 0;
+}
+
+.bottom__navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+  padding: 2rem 0;
+}
+
+.bottom__navigation_item a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.cta-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-image-1,
+.cta-image-2 {
+  object-fit: cover;
+}
+
+.bottom-cta {
+  padding: 4rem 5rem;
+}
+
+/* Single Blog Page */
+.blog-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single__blog_content {
+  width: 80%;
+}
+
+.single__blog_car-image {
+  max-height: 15.625rem;
+  object-fit: cover;
+  margin-top: 4rem;
+}
+
+.single__blog_car-image,
+.single__blog_road-image {
+  width: 100%;
+  display: block;
+}
+
+.single__blog_header {
+  margin: 5rem auto 4rem auto;
+}
+
+.single__blog_headline {
+  margin: 1rem auto;
+}
+
+.blog__post_headline {
+  margin-bottom: 1.25rem;
+}
+
+.blog__post_text {
+  margin-bottom: 2.5rem;
+}
+
+.single__blog_road-image {
+  margin: 3.5rem auto 5rem auto;
+}
+
+.blog__post_headline-small {
+  margin-bottom: 1rem;
+}
+
+.blog__line_text {
+  margin: 1.5rem auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.single__blog_section {
+  margin-bottom: 8rem;
+}
+
+/* Contact Page */
+
+.contact-experts-headline {
+  margin: 5rem 0 3rem;
+  max-width: 32rem;
+}
+
+.contact-map {
+  width: 100%;
+  flex-shrink: 0;
+  transform: translateY(5rem);
+  margin-top: 3rem;
+}
+
+.contact-upper-footer-image {
+  width: 100%;
+  max-height: 20rem;
+  object-fit: cover;
+}
+
+.experts-contact {
+  margin: 4rem auto 2rem;
+}
+
+.contact-button {
+  margin-top: 3rem;
+}
+
+.contact-margin {
+  margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .article__featured_image {
+    max-height: 28.125rem;
+  }
+  .article__recent_image {
+    width: 10rem;
+    height: 10rem;
+  }
+  .article__recent_text h5 {
+    font-size: 1.625rem;
+    line-height: 2.125rem;
+  }
+
+  .article__recent_text .article-info {
+    font-size: 1rem;
+    line-height: 1.375rem;
+  }
+  .other-articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .other__article {
+    width: calc(50% - 1rem);
+  }
+
+  .other__article_image {
+    max-height: 16.625rem;
+  }
+
+  .upper-footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+  }
+
+  .upper-footer {
+    padding: 8rem 0;
+  }
+
+  .lower-footer {
+    padding: 0;
+  }
+
+  .lower-footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+  }
+  .bottom__navigation {
+    justify-content: space-between;
+    max-width: 28.6875rem;
+    padding: 0;
+  }
+
+  .cta-wrapper {
+    flex-direction: row;
+  }
+
+  .cta-image-1 {
+    object-position: 15%;
+    width: 10%;
+  }
+
+  .cta-image-2 {
+    width: 35%;
+  }
+
+  .third-section {
+    max-height: 32rem;
+  }
+
+  /* Single Blog Page */
+
+  .single__blog_content {
+    width: 75%;
+  }
+
+  .single__blog_car-image {
+    max-height: 24rem;
+  }
+  .single__blog_road-image {
+    max-height: 30rem;
+  }
+
+  /* Contact Page */
+
+  .contact-experts-headline {
+    max-width: 26rem;
+  }
+
+  .contact-section {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+    justify-content: space-between;
+  }
+  .form-container {
+    width: calc(55% - 3rem);
+  }
+  .experts-contact {
+    width: calc(45% - 3rem);
+    margin: 0;
+  }
+
+  .contact-upper-footer-image {
+    max-height: 24rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .first-section {
+    padding: 8rem 0;
+  }
+
+  .header__headline {
+    max-width: 38rem;
+  }
+
+  .header__text {
+    max-width: 42rem;
+  }
+
+  .second-section {
+    padding: 8rem 0rem 4rem 0rem;
+  }
+
+  .first-section-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .featured-articles {
+    width: 40%;
+  }
+  .recent-articles {
+    width: 60%;
+    display: flex;
+    align-items: center;
+  }
+
+  .article__recent_image {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .article__recent_text h5 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -0.06rem;
+  }
+
+  .article__recent_text .article-info {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+  }
+
+  .other__article {
+    width: calc(33% - 1.5rem);
+  }
+
+  .bottom__navigation {
+    gap: 2.5rem;
+  }
+
+  .cta-wrapper {
+    flex-direction: row;
+  }
+
+  .cta-image-1 {
+    object-position: 15%;
+    width: 12.5%;
+  }
+
+  .cta-image-2 {
+    width: 45%;
+  }
+
+  .bottom-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  /* Single Blog Page */
+
+  .single__blog_car-image {
+    max-height: 32rem;
+  }
+  .single__blog_road-image {
+    max-height: 37.375rem;
+  }
+
+  /* Contact Page */
+
+  .contact-experts-headline {
+    max-width: 32rem;
+  }
+}
